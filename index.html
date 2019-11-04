@@ -7,43 +7,47 @@
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
-	<header>
+	<header class="header">
 		<div>
-			<figure>
+			<figure class="logo">
 				<img alt="Logo de Santiago" src="icon.jpg" height="100" width="100">
 			</figure>
-		 <nav>
+		 <nav class="menu">
 			<ol>
 				<li>
-					<a href="#portafolio">Portafolio</a>
+					<a class="link" href="#portafolio">Portafolio</a>
 				</li>
 				<li>
-					<a href="#experiencia">Experiencia</a>
+					<a class="link" href="#experiencia">Experiencia</a>
 				</li>
 				<li>
-					<a href="#trabajemos juntos">Trabajemos juntos</a>
+					<a class="link" href="#trabajemos juntos">Trabajemos juntos</a>
 				</li>
 			</ol>
 		 </nav>
 		</div>
 	</header>
-	<section>
+	<section class="hero">
 		<h1>
-			Hola! Soy Santiago Ramos Frontend Developer <br> con pasión por aprender
+			¡Hola! Soy Santiago Ramos <br> Frontend Developer con pasión por aprender
 		</h1>
 	</section>
-	<section id="portafolio">
+	<section id="portafolio" class="portfolio">
 		<h2>Portafolio (Proyectos Destacados)</h2>
-		<article>
-			<h3>Internet de las Cosas (Colaboración con ISC Ana Juárez)</h3>
+		<article class="project">
+			<h3 class="project-title">Internet de las Cosas (Colaboración con <a href="https://isc-anajuarez.000webhostapp.com/" target="_blank">ISC Ana Juárez)</a></h3>
 			<h6>Arduino y Pusheta</h6>
 			<p><small><strong>Fecha:</strong> 01/08/2018</small></p>
-			<p>Es, en definitiva, la conexión de internet más con objetos que con personas.</p>
 			<img src="iot.jpg" width="500">
+			
+			<p>Es, en definitiva, la conexión de internet más con objetos que con personas.</p>
 			<br>
 			<h3>Web Development</h3>
-			<h6>HTML y JavaScript</h6>
+			<h6>HTML, CSS y Javascript</h6>
 			<p><small><strong>Proyecto Actualmente en Desarrollo</strong></small></p>
+			<img src="develop.jpg" width="500">
+			
+			<p>La base de todo sitio web está conformada por estas dos tecnologías, junto a CSS nos dan las páginas web en las que estamos todos los días.<br> HTML es un lenguaje de marcado, da la estructura jerárquica de la información, dónde va cada parte y que tan importante es.<br> CSS hace que la página se vea bonita en pocas palabras.<br> Javascript es un lenguaje de programación, en un página web común vemos animaciones cambios de vistas, subimos archivos, platicamos con nuestros amigos o publicamos cosas; ésto es posible con un lenguaje de programación que se ejecuta dentro del navegador, uno de ello es Javascript.</p>
 		</article>
 	</section>
 	<section id="experiencia">
@@ -65,5 +69,6 @@
 		</form>
 	</section>
 	<footer>footer</footer>
+	<div>Icons made by <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/"     title="Flaticon">www.flaticon.com</a></div>
 </body>
 </html>
