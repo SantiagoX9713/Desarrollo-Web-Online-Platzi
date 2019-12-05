@@ -1,8 +1,22 @@
 
 header{
- background: pink;
- color: red;
-}/*Selector de etiqueta header - section - article - nav*/
-/*Selector descendente body head div nav ol li a*/
-/*Selector de clase . ejemplo .link */
-/*Selector de id ejemplo #portafolio*/
+ background: rgb(91, 133, 223);
+ color: rgb(66, 66, 27);
+ font-family: 'Source Sans Pro', sans-serif;
+ 
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fjalla One',san-serif;
+}
+
+h1{
+    line-height: 40px;
+}
