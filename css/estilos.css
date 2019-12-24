@@ -1,25 +1,69 @@
-
-header{
- color: rgb(66, 66, 27);
- font-family: 'Source Sans Pro', sans-serif;
- 
-}
-
-a{
-    text-decoration: none;
-}
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+.logo{
+margin: 0px;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Fjalla One',san-serif;
     font-weight: normal;
     letter-spacing: -0.2px;
-    
 }
 
 h1{
     font-size: 40px;
     line-height: 1.5;
+    color:white ;
+    margin: 0px 510px 10px 10px;
+}
+
+h1 strong {
+    color: #0984E2;
+}
+
+.project{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding:10px;
+ }
+
+.project-details{
+    width: 500px;
+}
+
+.project-image-container{
+    width: 500px;
+}
+
+.hero{
+    height: 300px;
+    background-color: #626262;
+    background-image: url('../perfil.jpg');
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position-x:right ;
+    margin: 0px;
+}
+
+.header{
+    background-color: #1d252c;
+    color: white;
+    margin: 0x 0px;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+.description{
+    font-family: 'Source Sans Pro';
+}
+
+.portfolio{
+margin:10px;
+}
+.menu ol {
+    margin: 0px;
 }
