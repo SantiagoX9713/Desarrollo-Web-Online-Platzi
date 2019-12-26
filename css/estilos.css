@@ -32,7 +32,8 @@ h1 strong {
     padding:20px;
     margin: 10px;
     background-color: white;
-    flex-shrink: 0;
+    display: flex;
+
  }
 
 .project-details{
@@ -92,6 +93,4 @@ h2{
 
 .portfolio{
 background-color:#E1E2E4 ;
-display: flex;
-flex-wrap: wrap;
 }
