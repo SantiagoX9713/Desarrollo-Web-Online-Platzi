@@ -1,13 +1,15 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 0;
+    margin: 0px;
 }
 
 .logo{
 margin: 0px;
+padding-left: 20px;
+padding-top: 20px;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h3,h4,h5,h6{
     font-family: 'Fjalla One',san-serif;
     font-weight: normal;
     letter-spacing: -0.2px;
@@ -27,15 +29,23 @@ h1 strong {
 .project{
     border: 1px solid gray;
     border-radius: 10px;
-    padding:10px;
+    padding:20px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
  }
 
 .project-details{
     width: 500px;
 }
 
+.project-image{
+    display: inline;
+}
+
 .project-image-container{
     width: 500px;
+    display: inline;
 }
 
 .hero{
@@ -62,12 +72,24 @@ h1 strong {
     padding: 15px;
 }
 
-.portfolio{
-margin:10px;
+h2{
+    margin:0px;
+    padding: 10px;
+    font-family: 'Fjalla One',san-serif;
+    font-weight: normal;
+    letter-spacing: -0.2px;
 }
 .menu ol {
     margin: 0px;
 }
 .curso-url{
     text-decoration: none;
+}
+
+.form-email{
+    margin-left: 15px;
+}
+
+.portfolio{
+background-color:#E1E2E4 ;
 }
