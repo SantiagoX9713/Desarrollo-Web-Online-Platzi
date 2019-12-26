@@ -59,6 +59,7 @@ h1 strong {
 }
 .description{
     font-family: 'Source Sans Pro';
+    padding: 15px;
 }
 
 .portfolio{
@@ -66,4 +67,7 @@ margin:10px;
 }
 .menu ol {
     margin: 0px;
+}
+.curso-url{
+    text-decoration: none;
 }
