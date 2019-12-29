@@ -104,17 +104,25 @@ body h2{
     background-color: #f4fbff;
 }
 
-.curso-title{
-    display: flex;
-    justify-content: center;
-}
-
 .curso-details{
     margin: 20px 40px;
     margin-top: -135px;
     padding: 20px;
     background-color: white;
     position:relative;
+    text-align: center;
+}
+
+.curso-description{
+    text-align: left;
+}
+
+.curso-url{
+    border: 1px solid #0984E2;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #0984E2;
+    margin: 15px;
 }
 
 .curso img{
