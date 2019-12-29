@@ -3,11 +3,11 @@ body{
     margin: 0px;
 }
 
-.logo{
+/* .logo{
 margin: 0px;
 padding-left: 20px;
 padding-top: 20px;
-}
+} */
 
 h1,h3,h4,h5,h6{
     font-family: 'Fjalla One',san-serif;
@@ -19,7 +19,7 @@ h1{
     font-size: 40px;
     line-height: 1.5;
     color:white ;
-    margin: 0px 510px 10px 10px;
+    margin: 0px 510px 0px 10px;
 }
 
 h1 strong {
@@ -49,25 +49,52 @@ h1 strong {
     display: inline;
 }
 
-.hero{
-    height: 300px;
-    background-color: #626262;
-    background-image: url('../perfil.jpg');
-    background-size: 300px 300px;
-    background-repeat: no-repeat;
-    background-position-x:right ;
-    margin: 0px;
-}
 
 .header{
     background-color: #1d252c;
     color: white;
-    margin: 0x 0px;
+    height: 100px;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
 }
+
+ol,ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+figure{
+    margin: 0;
+}
+
 .header a {
     color: white;
     text-decoration: none;
 }
+
+.menu{
+    height: inherit;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.header a {
+    display:flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 15px;
+}
+
 .description{
     font-family: 'Source Sans Pro';
     padding: 15px;
@@ -80,11 +107,20 @@ h2{
     font-weight: normal;
     letter-spacing: -0.2px;
 }
-.menu ol {
-    margin: 0px;
-}
+
 .curso-url{
     text-decoration: none;
+}
+.hero{
+    height: 300px;
+    background-color: #626262;
+    background-image: url('../perfil.jpg');
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position-x:right ;
+    margin: 0px;
+    display: flex;
+    align-items: center;
 }
 
 .form-email{
@@ -93,4 +129,15 @@ h2{
 
 .portfolio{
 background-color:#E1E2E4 ;
+}
+
+.footer{
+    height: 90px;
+    color:white;
+    background-color: #1b2127;
+    display:flex;
+    align-items: center;
+}
+.footer img{
+vertical-align: middle;
 }
