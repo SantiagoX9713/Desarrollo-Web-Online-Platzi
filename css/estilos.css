@@ -38,6 +38,8 @@ padding:20px;
     margin-bottom: 15px;
     background-color: white;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     
 }
  
@@ -56,6 +58,11 @@ padding:20px;
     padding: 15px;
     font-size: 20px;
 }
+
+.project strong{
+    font-family: 'Fjalla One',sans-serif;
+}
+
 .project-details{
     width: 500px;
 }
@@ -69,6 +76,9 @@ padding:20px;
     display: inline;
 }
 
+#experiencia{
+    padding: 20px;
+}
 
 .header{
     background-color: #1d252c;
@@ -139,6 +149,10 @@ h2{
     margin: 0px;
     display: flex;
     align-items: center;
+}
+
+.contacto{
+    padding: 20px;
 }
 
 .form-email{
