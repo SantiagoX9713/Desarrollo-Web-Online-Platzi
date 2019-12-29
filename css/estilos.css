@@ -4,7 +4,7 @@ body{
 }
 
 /* .logo{
-margin: 0px;
+    margin: 0px;
 padding-left: 20px;
 padding-top: 20px;
 } */
@@ -28,9 +28,19 @@ h1 strong {
 }
 
 .portfolio{
-background-color:#E1E2E4 ;
+    background-color:#E1E2E4 ;
 padding:20px;
 }
+h2{
+   font-family: 'Source Sans Pro',san-serif;
+   font-weight: bold;
+   font-size: 25px;
+   letter-spacing: -0.2px;
+   color:#0984E2;
+   text-transform: uppercase;
+   margin-bottom: 40px;
+}
+
 .project{
     border: 1px solid gray;
     border-radius: 10px;
@@ -76,8 +86,16 @@ padding:20px;
     display: inline;
 }
 
-#experiencia{
+.cursos{
+    display: flex;
+}
+
+body h2{
     padding: 20px;
+}
+
+.curso{
+    margin: 10px;
 }
 
 .header{
@@ -126,15 +144,6 @@ figure{
 }
 
 
-h2{
-    font-family: 'Source Sans Pro',san-serif;
-    font-weight: bold;
-    font-size: 25px;
-    letter-spacing: -0.2px;
-    color:#0984E2;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-}
 
 .curso-url{
     text-decoration: none;
