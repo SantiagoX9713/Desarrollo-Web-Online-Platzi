@@ -200,22 +200,73 @@ figure{
     height: 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .contacto h3{
+    margin: 0 15px;
     color: white;
-    font-family: 'Fjalla One',san-serif;
+    font-family: 'Source Sans Pro',san-serif;
     font-weight: normal;
     letter-spacing: -0.2px;
     text-transform: uppercase;
 }
 
-.form-email{
-    margin-left: 15px;
+.social{
+    width: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
 }
 
+.social-link{
+display: inline-block;
+width: 50px;
+height: 50px;
+margin: 0 10px;
+background-size: 50px 50px;
+}
+
+.social-link.face{
+background-image: url('../images/facebook.svg');
+}
+.social-link.twt{
+ background-image: url('../images/twitter.svg');   
+}
+.social-link.git{
+ background-image: url('../images/github.svg');   
+}
+.social-link.inst{
+ background-image: url('../images/instagram.svg');   
+}
+
+.form-email input{
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border-style: solid;
+    color: gray;
+    padding: 10px 10px 10px 30px;
+    background-image: url('../images/envelope.svg');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position-y: center;
+    background-position-x: 10px;
+}
+.form-email button{
+    margin-top: 10px;
+    margin-left: 35px;
+    display: block;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px 0px;
+    width: 100px;
+    border-style: solid;
+}
 
 .footer{
-    height: 90px;
+    height: 70px;
     color:white;
     background-color: #1b2127;
     display:flex;
