@@ -27,15 +27,35 @@ h1 strong {
     color: #0984E2;
 }
 
+.portfolio{
+background-color:#E1E2E4 ;
+padding:20px;
+}
 .project{
     border: 1px solid gray;
     border-radius: 10px;
     padding:20px;
+    margin-bottom: 15px;
     background-color: white;
     display: flex;
+    
+}
+ 
+.project-title{
+    font-size: 30px;
+    margin-top:0;
+    margin-bottom: 10px;
+}
 
- }
+.project-tech,.project-date{
+    margin: 10px 0;
+}
 
+.description{
+    font-family: 'Source Sans Pro';
+    padding: 15px;
+    font-size: 20px;
+}
 .project-details{
     width: 500px;
 }
@@ -95,17 +115,15 @@ figure{
     padding: 0 15px;
 }
 
-.description{
-    font-family: 'Source Sans Pro';
-    padding: 15px;
-}
 
 h2{
     font-family: 'Source Sans Pro',san-serif;
-    font-weight: normal;
+    font-weight: bold;
+    font-size: 25px;
     letter-spacing: -0.2px;
     color:#0984E2;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 .curso-url{
@@ -127,10 +145,6 @@ h2{
     margin-left: 15px;
 }
 
-.portfolio{
-background-color:#E1E2E4 ;
-padding:20px;
-}
 
 .footer{
     height: 90px;
