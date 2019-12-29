@@ -137,7 +137,11 @@ background-color:#E1E2E4 ;
     background-color: #1b2127;
     display:flex;
     align-items: center;
+    justify-content: space-between;
 }
 .footer img{
 vertical-align: middle;
+}
+.footer a{
+    color: white;
 }
