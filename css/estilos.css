@@ -86,16 +86,42 @@ h2{
     display: inline;
 }
 
-.cursos{
-    display: flex;
-}
-
 body h2{
     padding: 20px;
 }
 
+.cursos{
+    display: flex;
+}
+
 .curso{
+    border: 1px solid black;
     margin: 10px;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #f4fbff;
+}
+
+.curso-title{
+    display: flex;
+    justify-content: center;
+}
+
+.curso-details{
+    margin: 20px 40px;
+    margin-top: -135px;
+    padding: 20px;
+    background-color: white;
+    position:relative;
+}
+
+.curso img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 .header{
