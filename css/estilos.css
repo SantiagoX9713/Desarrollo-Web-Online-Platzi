@@ -101,8 +101,6 @@ figure{
 }
 
 h2{
-    margin:0px;
-    padding: 10px;
     font-family: 'Fjalla One',san-serif;
     font-weight: normal;
     letter-spacing: -0.2px;
@@ -129,6 +127,7 @@ h2{
 
 .portfolio{
 background-color:#E1E2E4 ;
+padding:20px;
 }
 
 .footer{
