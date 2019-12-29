@@ -9,127 +9,141 @@
 </head>
 <body>
 	<header class="header">
-			<figure class="logo">
-				<img alt="Logo de Santiago" src="icon.jpg" height="80" width="80" >
-			</figure>
-		 <nav class="menu">
-			<ol>
-				<li>
-					<a class="link" href="#portafolio">Portafolio</a>
-				</li>
-				<li>
-					<a class="link" href="#experiencia">Experiencia</a>
-				</li>
-				<li>
-					<a class="link" href="#trabajemos_juntos">Trabajemos juntos</a>
-				</li>
-			</ol>
-		 </nav>
-	</header>
+		<div class="container">
+				<figure class="logo">
+					<img alt="Logo de Santiago" src="icon.jpg" height="80" width="80" >
+				</figure>
+			 <nav class="menu">
+				<ol>
+					<li>
+						<a class="link" href="#portafolio">Portafolio</a>
+					</li>
+					<li>
+						<a class="link" href="#experiencia">Experiencia</a>
+					</li>
+					<li>
+						<a class="link" href="#trabajemos_juntos">Trabajemos juntos</a>
+					</li>
+				</ol>
+			 </nav>
+		</header>
+	</div>
 	<section class="hero">
-		<h1>
-			¡Hola! Soy <strong>Santiago Ramos</strong> <br> Desarrollador Frontend y de <strong>Javascript</strong> con <br>
-			pasión por <strong>aprender</strong>
-		</h1>
-		<!-- <img class="project-image" src="perfil.jpg" width="300";> -->
-		<br>
+		<div class="container">
+			<h1>
+				¡Hola! Soy <strong>Santiago Ramos</strong> <br> Desarrollador Frontend y de <strong>Javascript</strong> con <br>
+				pasión por <strong>aprender</strong>
+			</h1>
+			<img class="hero-image" src="perfil.jpg" width="300" height="300">
+			<br>
+		</div>
 	</section>
 	<section id="portafolio" class="portfolio">
-		<h2>Portafolio (Proyectos Destacados)</h2>
-		<article class="project">
-			<div class="project-details">
-			<h3 class="project-title">Internet de las Cosas <small>(Colaboración con <a href="https://isc-anajuarez.000webhostapp.com/" target="_blank">ISC Ana Juárez)</a></small></h3>
-			<h6 class="project-tech">Arduino y Pusheta</h6>
-			<p class="project-date"><small><strong>Fecha:</strong> 01/08/2018</small></p>
-			<p class="description">Es, en definitiva, la conexión de internet más con objetos que con personas.</p>
-			</div>
-			<figure class="project-image-container">
-				<img class="project-image" src="iot.jpg" width="500">
-			</figure>
-			<br>
-		</article>
+		<div class="container">
+			<h2>Portafolio (Proyectos Destacados)</h2>
 			<article class="project">
-			<div class="project-details">
-			<h3 class="project-title">Web Development</h3>
-			<h6 class="project-tech">HTML, CSS y Javascript</h6>
-			<p class="project-date"><small><strong>Proyecto Actualmente en Desarrollo</strong></small></p>
-			<p class="description">La base de todo sitio web está conformada por estas dos tecnologías, junto a CSS nos dan las páginas 
-				web en las que estamos todos los días.<br> HTML es un lenguaje de marcado, da la estructura jerárquica de la información, 
-				dónde va cada parte y que tan importante es.<br> CSS hace que la página se vea bonita en pocas palabras.<br> Javascript es un 
-				lenguaje de programación, en un página web común vemos animaciones cambios de vistas, subimos archivos, platicamos con <br>
-				nuestros amigos o publicamos cosas; ésto es posible con un lenguaje de programación que se ejecuta dentro del navegador, uno de
-				 ellos es Javascript.</p>
-			</div>
-			<figure class="project-image-container">
-				<img class="project-image" src="develop.jpg" width="500">
-			</figure>
-			
+				<div class="project-details">
+				<h3 class="project-title">Internet de las Cosas <small>(Colaboración con <a href="https://isc-anajuarez.000webhostapp.com/" target="_blank">ISC Ana Juárez)</a></small></h3>
+				<h6 class="project-tech">Arduino y Pusheta</h6>
+				<p class="project-date"><small><strong>Fecha:</strong> 01/08/2018</small></p>
+				<p class="description">Es, en definitiva, la conexión de internet más con objetos que con personas.</p>
+				</div>
+				<figure class="project-image-container">
+					<img class="project-image" src="iot.jpg" width="500">
+				</figure>
+				<br>
 			</article>
+				<article class="project">
+				<div class="project-details">
+				<h3 class="project-title">Web Development</h3>
+				<h6 class="project-tech">HTML, CSS y Javascript</h6>
+				<p class="project-date"><small><strong>Proyecto Actualmente en Desarrollo</strong></small></p>
+				<p class="description">La base de todo sitio web está conformada por estas dos tecnologías, junto a CSS nos dan las páginas 
+					web en las que estamos todos los días.<br> HTML es un lenguaje de marcado, da la estructura jerárquica de la información, 
+					dónde va cada parte y que tan importante es.<br> CSS hace que la página se vea bonita en pocas palabras.<br> Javascript es un 
+					lenguaje de programación, en un página web común vemos animaciones cambios de vistas, subimos archivos, platicamos con <br>
+					nuestros amigos o publicamos cosas; ésto es posible con un lenguaje de programación que se ejecuta dentro del navegador, uno de
+					 ellos es Javascript.</p>
+				</div>
+				<figure class="project-image-container">
+					<img class="project-image" src="develop.jpg" width="500">
+				</figure>
+				
+				</article>
+	</div>
 	</section>
-	<h2>Más sobre mi experiencia</h2>
+	<div class="container">
+		<h2>Más sobre mi experiencia</h2>
+	</div>
 	<section id="experiencia" class="cursos">
-		<article class="curso">
-			<figure class="curso-image-container">
-				<img class="curso-image" src="git.jpg" width="400">
-			</figure>
-			<div class="curso-details">
-				<h3 class="curso-title">Control de versiones con Git y GitHub</h3>
-				<p class="curso-description">Git, es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos. </p>
-				<a class="curso-url" href="https://www.youtube.com/watch?v=DinilgacaWs" target="window">Aprende un poco sobre Git</a><br>
-				<a class="curso-url" href="https://github.com/SantiagoX9713" target="window">Entra a ver mis reposotorios<br> y proyectos</a>
-			</div>
-		</article>
-		<article class="curso">
-			<figure class="curso-image-container">
-				<img class="curso-image" src="git.jpg" width="400">
-			</figure>
-			<div class="curso-details">
-				<h3 class="curso-title">Control de versiones con Git y GitHub</h3>
-				<p class="curso-description">Git, es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos. </p>
-				<a class="curso-url" href="https://www.youtube.com/watch?v=DinilgacaWs" target="window">Aprende un poco sobre Git</a><br>
-				<a class="curso-url" href="https://github.com/SantiagoX9713" target="window">Entra a ver mis reposotorios<br> y proyectos</a>
-			</div>
-		</article>
-		<article class="curso">
-			<figure class="curso-image-container">
-				<img class="curso-image" src="git.jpg" width="400">
-			</figure>
-			<div class="curso-details">
-				<h3 class="curso-title">Control de versiones con Git y GitHub</h3>
-				<p class="curso-description">Git, es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos. </p>
-				<a class="curso-url" href="https://www.youtube.com/watch?v=DinilgacaWs" target="window">Aprende un poco sobre Git</a><br>
-				<a class="curso-url" href="https://github.com/SantiagoX9713" target="window">Entra a ver mis reposotorios<br> y proyectos</a>
-			</div>
-		</article>
-		<article class="curso">
-			<figure class="curso-image-container">
-				<img class="curso-image" src="git.jpg" width="400">
-			</figure>
-			<div class="curso-details">
-				<h3 class="curso-title">Control de versiones con Git y GitHub</h3>
-				<p class="curso-description">Git, es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos. </p>
-				<a class="curso-url" href="https://www.youtube.com/watch?v=DinilgacaWs" target="window">Aprende un poco sobre Git</a><br>
-				<a class="curso-url" href="https://github.com/SantiagoX9713" target="window">Entra a ver mis reposotorios<br> y proyectos</a>
-			</div>
-		</article>
-
+		<div class="container">
+			<article class="curso">
+				<figure class="curso-image-container">
+					<img class="curso-image" src="git.jpg" width="400">
+				</figure>
+				<div class="curso-details">
+					<h3 class="curso-title">Control de versiones con Git y GitHub</h3>
+					<p class="curso-description">Git, es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos. </p>
+					<a class="curso-url" href="https://www.youtube.com/watch?v=DinilgacaWs" target="window">Aprende un poco sobre Git</a><br>
+					<a class="curso-url" href="https://github.com/SantiagoX9713" target="window">Entra a ver mis reposotorios<br> y proyectos</a>
+				</div>
+			</article>
+			<article class="curso">
+				<figure class="curso-image-container">
+					<img class="curso-image" src="git.jpg" width="400">
+				</figure>
+				<div class="curso-details">
+					<h3 class="curso-title">Control de versiones con Git y GitHub</h3>
+					<p class="curso-description">Git, es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos. </p>
+					<a class="curso-url" href="https://www.youtube.com/watch?v=DinilgacaWs" target="window">Aprende un poco sobre Git</a><br>
+					<a class="curso-url" href="https://github.com/SantiagoX9713" target="window">Entra a ver mis reposotorios<br> y proyectos</a>
+				</div>
+			</article>
+			<article class="curso">
+				<figure class="curso-image-container">
+					<img class="curso-image" src="git.jpg" width="400">
+				</figure>
+				<div class="curso-details">
+					<h3 class="curso-title">Control de versiones con Git y GitHub</h3>
+					<p class="curso-description">Git, es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos. </p>
+					<a class="curso-url" href="https://www.youtube.com/watch?v=DinilgacaWs" target="window">Aprende un poco sobre Git</a><br>
+					<a class="curso-url" href="https://github.com/SantiagoX9713" target="window">Entra a ver mis reposotorios<br> y proyectos</a>
+				</div>
+			</article>
+			<article class="curso">
+				<figure class="curso-image-container">
+					<img class="curso-image" src="git.jpg" width="400">
+				</figure>
+				<div class="curso-details">
+					<h3 class="curso-title">Control de versiones con Git y GitHub</h3>
+					<p class="curso-description">Git, es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos. </p>
+					<a class="curso-url" href="https://www.youtube.com/watch?v=DinilgacaWs" target="window">Aprende un poco sobre Git</a><br>
+					<a class="curso-url" href="https://github.com/SantiagoX9713" target="window">Entra a ver mis reposotorios<br> y proyectos</a>
+				</div>
+			</article>
+		</div>
 	</section>
 	<section id="trabajemos_juntos" class="contacto">
-		<form action="/suscripcion/" class="form-email">
-			<h3>¿Creamos algo juntos?</h3>
-			<input type="datetime" placeholder="Déjame tu email" value="" id="email">
-			<button>Enviar</button>
-		</form>
-		<div class="social">
-			<a href="https://facebook.com" class="social-link face"></a>
-			<a href="https://twitter.com" class="social-link twt"></a>
-			<a href="https://github.com" class="social-link git"></a>
-			<a href="https://instagran.com" class="social-link inst"></a>
+		<div class="container">
+			<form action="/suscripcion/" class="form-email">
+				<h3>¿Creamos algo juntos?</h3>
+				<input type="datetime" placeholder="Déjame tu email" value="" id="email">
+				<button>Enviar</button>
+			</form>
+			<div class="social">
+				<a href="https://facebook.com" class="social-link face"></a>
+				<a href="https://twitter.com" class="social-link twt"></a>
+				<a href="https://github.com" class="social-link git"></a>
+				<a href="https://instagran.com" class="social-link inst"></a>
+			</div>
 		</div>
 	</section>
 	<footer class="footer">
+		<div class="container">
 		<div>Curso de Desarrollo Web Online 2018 <img src="logito.png" width='80' alt="Platzi logo"></div>
 		<div>Diseñado por <a href='https://www.twitter.com/thespianartist'>@thespianartist</a></div>
+		</div>
+		
 	</footer>
 </body>
 </html>
