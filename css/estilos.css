@@ -9,10 +9,11 @@ padding-left: 20px;
 padding-top: 20px;
 } */
 
-h1,h3,h4,h5,h6{
+h1,h3,h4,h5,h6,a{
     font-family: 'Fjalla One',san-serif;
     font-weight: normal;
     letter-spacing: -0.2px;
+    color: black;
 }
 
 h1{
@@ -30,7 +31,6 @@ h1 strong {
     border: 1px solid gray;
     border-radius: 10px;
     padding:20px;
-    margin: 10px;
     background-color: white;
     display: flex;
 
@@ -101,9 +101,11 @@ figure{
 }
 
 h2{
-    font-family: 'Fjalla One',san-serif;
+    font-family: 'Source Sans Pro',san-serif;
     font-weight: normal;
     letter-spacing: -0.2px;
+    color:#0984E2;
+    text-transform: uppercase;
 }
 
 .curso-url{
