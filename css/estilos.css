@@ -144,6 +144,7 @@ body h2{
     height: 90px;
     margin: 0px 0px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -190,13 +191,17 @@ figure{
     background-size: 300px 300px;
     background-repeat: no-repeat;
     background-position-x:right ; */
-    margin: 0px;
     display: flex;
     align-items: center;
     justify-content:space-between;
+    flex-wrap: wrap;
 }
 .hero-image{
     object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .contacto{
     background-color: #0984E2;
@@ -284,11 +289,31 @@ vertical-align: middle;
     color: white;
 }
 .container{
-    display: inherit;
-    align-items: inherit;
-    justify-content: inherit;
-    height: inherit;
+    max-width: 1000px;
     margin: 0 auto;
-    width: 1000px;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
     flex-wrap: inherit;
 }
+/* @media screen and (max-width:1024px){
+    body {
+        border:10px solid blue;
+    }
+}
+@media screen and (max-width:768px){
+    body {
+        border:10px solid blue;
+    }
+}
+@media screen and (max-width:48p0x){
+    body {
+        border:10px solid blue;
+    }
+}
+@media screen and (max-width:320px){
+    body {
+        border:10px solid blue;
+    }
+} */
