@@ -50,6 +50,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
  
@@ -210,6 +211,7 @@ figure{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .contacto h3{
     margin: 0 15px;
@@ -281,6 +283,7 @@ background-image: url('../images/facebook.svg');
     display:flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .footer img{
 vertical-align: middle;
