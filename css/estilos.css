@@ -29,7 +29,7 @@ h1 strong {
 
 .portfolio{
     background-color:#E1E2E4 ;
-padding:20px;
+    padding:20px;
 }
 h2{
    font-family: 'Source Sans Pro',san-serif;
@@ -45,6 +45,7 @@ h2{
     border: 1px solid gray;
     border-radius: 10px;
     padding:20px;
+    margin-right: 10px;
     margin-bottom: 15px;
     background-color: white;
     display: flex;
