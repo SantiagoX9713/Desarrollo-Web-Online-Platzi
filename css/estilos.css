@@ -49,9 +49,9 @@ h2{
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    
+    flex: 1;
 }
  
 .project-title{
@@ -75,7 +75,7 @@ h2{
 }
 
 .project-details{
-    width: 500px;
+    width: 50%;
 }
 
 .project-image{
@@ -83,8 +83,7 @@ h2{
 }
 
 .project-image-container{
-    width: 500px;
-    display: inline;
+    width: 50%;
 }
 
 body h2{
@@ -321,7 +320,15 @@ vertical-align: middle;
     .logo{
         text-align: center;
     }
-   
+    .project{
+        display: block;
+    }
+    .project-image-container{
+        width:auto;
+    }
+    .project-details{
+        width: auto;
+    }
 }
 @media screen and (max-width:479px){
     
