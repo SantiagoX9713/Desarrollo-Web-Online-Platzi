@@ -318,6 +318,9 @@ vertical-align: middle;
     .header a {
         justify-content: center;
     }
+    .logo{
+        text-align: center;
+    }
    
 }
 @media screen and (max-width:479px){
