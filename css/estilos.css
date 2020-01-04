@@ -333,6 +333,21 @@ vertical-align: middle;
     .project-details{
         width: auto;
     }
+    .project-details{
+        font-size: 16px;
+    }
+    .project-title{
+        font-size: 1.5em;
+    }
+    .project-date{
+        font-size: 1em;
+    }
+    .project-tech{
+        font-size: 1em;
+    }
+    .description{
+        font-size: 0.8em;
+    }
 }
 @media screen and (max-width:479px){
     
