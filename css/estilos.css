@@ -354,7 +354,27 @@ vertical-align: middle;
     }
 }
 @media screen and (max-width:479px){
-    
+    .project-details{
+        font-size: 12px;
+    }
+    .curso{
+        width:90%
+    }
+    .curso-details{
+        margin: -2em 0.5em 0.5em;
+    }
+    .contacto{
+        height:auto;
+        padding: 1.5em 0;
+        display: block;
+        text-align: center;
+    }
+    .social{
+        width: auto;
+    }
+    .form-email button{
+        margin: 1em auto;
+    }
 }
 @media screen and (max-width:319px){
     
