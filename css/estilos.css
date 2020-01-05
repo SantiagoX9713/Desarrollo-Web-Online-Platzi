@@ -353,7 +353,7 @@ vertical-align: middle;
         font-size: 1em;
     }
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:479px) and (max-width:600px){
     .project-details{
         font-size: 12px;
     }
