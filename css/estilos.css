@@ -356,7 +356,7 @@ vertical-align: middle;
         padding: 0 1em;
     }
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:603px){
     .project-details{
         font-size: 12px;
     }
