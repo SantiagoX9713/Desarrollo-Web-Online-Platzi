@@ -352,8 +352,11 @@ vertical-align: middle;
     .description{
         font-size: 1em;
     }
+    .footer{
+        padding: 0 1em;
+    }
 }
-@media screen and (max-width:479px) and (max-width:600px){
+@media screen and (max-width:479px){
     .project-details{
         font-size: 12px;
     }
@@ -375,7 +378,17 @@ vertical-align: middle;
     .form-email button{
         margin: 1em auto;
     }
+    .contacto h3{
+        margin-top:0;
+    }
+    .footer{
+        display:block;
+        text-align: center;
+        border: 1px solid transparent;
+    }
 }
 @media screen and (max-width:319px){
-    
+    .curso{
+        width:60%
+    }
 }
