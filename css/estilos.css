@@ -12,15 +12,15 @@ padding-top: 20px;
 h1,h3,h4,h5,h6,a{
     font-family: 'Fjalla One',san-serif;
     font-weight: normal;
-    letter-spacing: -0.2px;
     color: black;
 }
 
 h1{
     font-size: 40px;
     line-height: 1.5;
+    letter-spacing: -0.2px;
     color:white ;
-    margin: 0px 100px 0px 10px;
+    margin: 0;
 }
 
 h1 strong {
@@ -99,21 +99,25 @@ body h2{
 }
 
 .curso{
-    border: 1px solid black;
     margin: 1%;
-    width: 44%;
+    width: 47%;
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;
     background-color: #f4fbff;
 }
 
+.curso img{
+    width: 550px;
+    height: 330px;
+    object-fit: cover;
+}
 .curso-details{
     margin: 20px 40px;
     margin-top: -135px;
-    padding: 20px;
     background-color: white;
     position:relative;
+    padding: 20px;
     text-align: center;
     border-radius: 10px;
 }
@@ -123,23 +127,17 @@ body h2{
 }
 
 .curso-url{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    color: #0984E2;
     border: 1px solid;
     border-radius: 3px;
     padding: 5px 10px;
-    color: #0984E2;
-    margin: 10px;
-    text-align: center;
+    /* margin: 10px;
+    text-align: center; */
     text-decoration: none;
 }
 
-.curso img{
-    width: 500px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-}
 
 .header{
     background-color: #1d252c;
@@ -303,8 +301,8 @@ vertical-align: middle;
     height: inherit;
     flex-wrap: inherit;
 }
-@media screen and (max-width:1024px){
-   
+@media screen and (max-width:1023px){
+    padding: 0 1em;
 }
 @media screen and (max-width:767px){
     .header {
@@ -354,6 +352,13 @@ vertical-align: middle;
     }
     .footer{
         padding: 0 1em;
+    }
+    .curso{
+        width: auto;
+        flex-shrink: initial;
+    }
+    .curso img{
+        width: 100%;
     }
 }
 @media screen and (max-width:603px){
