@@ -165,7 +165,7 @@ body h2{
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;
-    background-color: #f4fbff;
+    background-color: #a1d5f3;
 }
 
 .curso img{
@@ -175,7 +175,7 @@ body h2{
 }
 .curso-details{
     margin: 20px 40px;
-    margin-top: -85px;
+    margin-top: -250px;
     background-color: white;
     position:relative;
     padding: 20px;
@@ -281,9 +281,44 @@ body h2{
     flex-wrap: inherit;
 }
 @media screen and (max-width:1023px){
-    padding: 0 1em;
+    .hero{
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+    .hero-image{
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    h1{
+        font-size: 2em;
+        z-index: 2;
+    }
 }
 @media screen and (max-width:767px){
+    .hero{
+        height: auto;
+        position: relative;
+    }
+    .hero-image{
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    h1{
+        font-size: 2em;
+        z-index: 2;
+    }    
     .header {
         display: block;
         height: auto;
@@ -347,6 +382,13 @@ body h2{
     .curso-details{
         margin: -2em 0.5em 0.5em;
     }
+    .curso{
+        width: auto;
+        flex-shrink: initial;
+    }
+    .curso img{
+        width: 100%;
+    }
     .contacto{
         height:auto;
         padding: 1.5em 0;
@@ -369,7 +411,10 @@ body h2{
     }
 }
 @media screen and (max-width:319px){
-    .curso{
-        width:60%
+    h1{
+        font-size: 1.23m;
+    }
+    .hero{
+        padding: 2em 1em;
     }
 }
