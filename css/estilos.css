@@ -26,165 +26,14 @@ h1{
 h1 strong {
     color: #0984E2;
 }
-
-.portfolio{
-    background-color:#E1E2E4 ;
-    padding:20px;
-}
 h2{
+   color:#0984E2;
+   text-transform: uppercase;
    font-family: 'Source Sans Pro',san-serif;
    font-weight: bold;
    font-size: 25px;
-   letter-spacing: -0.2px;
-   color:#0984E2;
-   text-transform: uppercase;
    margin-bottom: 40px;
 }
-
-.project{
-    border: 1px solid gray;
-    border-radius: 10px;
-    padding:20px;
-    margin-bottom: 15px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex: 1;
-}
- 
-.project-title{
-    font-size: 30px;
-    margin-top:0;
-    margin-bottom: 10px;
-}
-
-.project-tech,.project-date{
-    margin: 10px 0;
-}
-
-.description{
-    font-family: 'Source Sans Pro';
-    padding: 15px;
-    font-size: 18px;
-}
-
-.project strong{
-    font-family: 'Fjalla One',sans-serif;
-}
-
-.project-details{
-    width: 50%;
-}
-
-.project-image{
-    display: inline;
-}
-
-.project-image-container{
-    width: 50%;
-}
-.project-image-container img{
-    max-width: 100%;
-}
-
-body h2{
-    padding: 20px;
-}
-
-.cursos{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.curso{
-    margin: 1%;
-    width: 47%;
-    flex-shrink: 0;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #f4fbff;
-}
-
-.curso img{
-    width: 550px;
-    height: 330px;
-    object-fit: cover;
-}
-.curso-details{
-    margin: 20px 40px;
-    margin-top: -135px;
-    background-color: white;
-    position:relative;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.curso-description{
-    text-align: left;
-}
-
-.curso-url{
-    /* display: flex;
-    justify-content: center; */
-    color: #0984E2;
-    border: 1px solid;
-    border-radius: 3px;
-    padding: 5px 10px;
-    /* margin: 10px;
-    text-align: center; */
-    text-decoration: none;
-}
-
-
-.header{
-    background-color: #1d252c;
-    color: white;
-    height: 90px;
-    margin: 0px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-ol,ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-figure{
-    margin: 0;
-}
-
-.header a {
-    color: white;
-    text-decoration: none;
-}
-
-.menu{
-    height: inherit;
-}
-
-.header ol{
-    display: flex;
-    height: inherit;
-}
-
-.header ol li {
-    height: inherit;
-}
-
-.header a {
-    display:flex;
-    align-items: center;
-    height: inherit;
-    padding: 0 15px;
-}
-
 .hero{
     height: 300px;
     background-color: #626262;
@@ -199,10 +48,155 @@ figure{
 }
 .hero-image{
     object-fit: cover;
+    
+}
+
+.portfolio{
+    background-color:#E1E2E4 ;
+    padding:20px;
+}
+
+.project{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding:20px;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.project-tech,.project-date{
+    margin: 10px 0;
+}
+.description{
+    font-family: 'Source Sans Pro';
+    padding: 15px;
+    font-size: 18px;
+}
+.project strong{
+    font-family: 'Fjalla One',sans-serif;
+}
+.project-title{
+    font-size: 30px;
+    margin-top:0;
+    margin-bottom: 10px;
+}
+.project-details{
+    width: 50%;
+}
+
+.project-image-container{
+    width: 50%;
+}
+.project-image-container img{
+    max-width: 100%;
+}
+.header{
+    background-color: #1d252c;
+    color: white;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+.menu{
+    height: inherit;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+.header a {
+    display:flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 15px;
+}
+.footer{
+    height: 70px;
+    color:white;
+    background-color: #1b2127;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer img{
+vertical-align: middle;
+}
+.footer a{
+    color: white;
+}
+body h2{
+    padding: 20px;
+}
+
+.cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.curso{
+    margin: 1%;
+    width: 48%;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f4fbff;
+}
+
+.curso img{
+    width: 550px;
+    height: 330px;
+    object-fit: cover;
+}
+.curso-details{
+    margin: 20px 40px;
+    margin-top: -85px;
+    background-color: white;
+    position:relative;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.curso-description{
+    text-align: left;
+}
+
+.curso-url{
+    display: inline-block;
+    justify-content: center;
+    color: #0984E2;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 5px 1.7em;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
 }
 .contacto{
     background-color: #0984E2;
@@ -276,21 +270,6 @@ figure{
     border-style: solid;
 }
 
-.footer{
-    height: 70px;
-    color:white;
-    background-color: #1b2127;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.footer img{
-vertical-align: middle;
-}
-.footer a{
-    color: white;
-}
 .container{
     max-width: 1000px;
     flex:1;
@@ -364,9 +343,6 @@ vertical-align: middle;
 @media screen and (max-width:603px){
     .project-details{
         font-size: 12px;
-    }
-    .curso{
-        width:90%
     }
     .curso-details{
         margin: -2em 0.5em 0.5em;
