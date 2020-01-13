@@ -29,6 +29,15 @@
     content: "\e9bd";
   }
 
+  .buger-button{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #0984E2;
+      display: block;
+      line-height: 40px;
+      text-align: center;
+  }
 body{
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0px;
