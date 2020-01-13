@@ -33,8 +33,8 @@
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background-color: #0984E2;
-      display: block;
+      background-color: rgba(44, 137, 198, 0.8);
+      display: none;
       line-height: 40px;
       text-align: center;
       color: white;
@@ -347,6 +347,21 @@ body h2{
     }
 }
 @media screen and (max-width:767px){
+    .burger-button{
+        display: block;   
+    }
+    .menu{
+        position: fixed;
+        background-color: rgba(44, 137, 198, 0.8);
+        z-index: 3;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .hero{
         height: auto;
         position: relative;
@@ -421,6 +436,7 @@ body h2{
     }
 }
 @media screen and (max-width:603px){
+    
     .project-details{
         font-size: 12px;
     }
