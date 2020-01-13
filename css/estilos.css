@@ -29,7 +29,7 @@
     content: "\e9bd";
   }
 
-  .buger-button{
+  .burger-button{
       width: 40px;
       height: 40px;
       border-radius: 50%;
@@ -37,6 +37,11 @@
       display: block;
       line-height: 40px;
       text-align: center;
+      color: white;
+      position: fixed;
+      left: 7px;
+      top: 7px;
+      z-index: 4;
   }
 body{
     font-family: 'Source Sans Pro', sans-serif;
