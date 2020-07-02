@@ -138,6 +138,7 @@ h2{
 }
 .project-image-container img{
     max-width: 100%;
+    border-radius: 15px;
 }
 .header{
     background-color: #1d252c;
@@ -221,7 +222,7 @@ body h2{
 .curso-details{
     margin: 20px 40px;
     margin-top: -250px;
-    background-color: white;
+    background-color: rgba(255,255,255, 0.9);
     position:relative;
     padding: 20px;
     text-align: center;
