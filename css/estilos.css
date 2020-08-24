@@ -89,7 +89,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .hero-image{
     object-fit: cover;
